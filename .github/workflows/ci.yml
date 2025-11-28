@@ -43,7 +43,7 @@ jobs:
           echo "<body>" >> index.html
           echo "<h1>Bienvenue sur le TP CI/CD</h1>" >> index.html
           echo "<p>Deploiement automatique reussi !</p>" >> index.html
-          echo "<p><strong>Date et heure :</strong> $(date +\"%d/%m/%Y %H:%M:%S\")</p>" >> index.html
+          echo "<p><strong>Date et heure :</strong> $(date + "%d/%m/%Y %H:%M:%S")</p>" >> index.html
           echo "<p>Ce site a ete genere par GitHub Actions.</p>" >> index.html
           echo "</body></html>" >> index.html
 
