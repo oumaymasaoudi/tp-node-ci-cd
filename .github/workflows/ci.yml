@@ -1,5 +1,6 @@
 name: CI/CD Node.js Pipeline
-
+permissions:
+  contents: write
 on:
   push:
     branches: [ main ]
